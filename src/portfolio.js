@@ -20,26 +20,26 @@ const illustration = {
 };
 
 const greeting = {
-  username: "Saad Pasta",
-  title: "Hi all, I'm Saad",
+  username: "Jeevan K",
+  title: "Hi there, I'm Jeevan K",
   subTitle: emoji(
-    "A passionate Full Stack Software Developer 🚀 having an experience of building Web and Mobile applications with JavaScript / Reactjs / Nodejs / React Native and some other cool libraries and frameworks."
+    "A passionate Software Developer and Robotics enthusiast 🚀 having an experience of building software applications for solving problems."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1ofFdKF_mqscH8WvXkSObnVvC9kK7Ldlu/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/12cbQANHRVutE6zD3H4CLNlm5tCb264yj/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
 // Social Media Links
 
 const socialMediaLinks = {
-  github: "https://github.com/saadpasta",
-  linkedin: "https://www.linkedin.com/in/saadpasta/",
-  gmail: "saadpasta70@gmail.com",
-  gitlab: "https://gitlab.com/saadpasta",
-  facebook: "https://www.facebook.com/saad.pasta7",
-  medium: "https://medium.com/@saadpasta",
-  stackoverflow: "https://stackoverflow.com/users/10422806/saad-pasta",
+  github: "https://github.com/G1-k",
+  linkedin: "https://www.linkedin.com/in/jeevan-k-6aa7a616b/",
+  gmail: "iamjeevank2000@gmail.com",
+  gitlab: "https://https://gitlab.com/iamjeevank2000",
+  facebook: "https://www.facebook.com/",
+  medium: "https://medium.com/",
+  stackoverflow: "https://stackoverflow.com/",
   // Instagram, Twitter and Kaggle are also supported in the links!
   // To customize icons and social links, tweak src/components/SocialMedia
   display: true // Set true to display this section, defaults to false
@@ -49,14 +49,14 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "CRAZY FULL STACK DEVELOPER WHO WANTS TO EXPLORE EVERY TECH STACK",
+  subTitle: "Software and Robotics Developer exploring the World of Technology",
   skills: [
     emoji(
-      "⚡ Develop highly interactive Front end / User Interfaces for your web and mobile applications"
+      "⚡ Developing Applications and Tools for Android, Linux and Robots"
     ),
-    emoji("⚡ Progressive Web Applications ( PWA ) in normal and SPA Stacks"),
+    emoji("⚡ I build and code things"),
     emoji(
-      "⚡ Integration of third party services such as Firebase/ AWS / Digital Ocean"
+      "⚡ Contributing to open source communities"
     )
   ],
 
@@ -65,56 +65,56 @@ https://fontawesome.com/icons?d=gallery */
 
   softwareSkills: [
     {
-      skillName: "html-5",
-      fontAwesomeClassname: "fab fa-html5"
+      skillName: "C",
+      fontAwesomeClassname: "fas fa-copyright"
     },
     {
-      skillName: "css3",
-      fontAwesomeClassname: "fab fa-css3-alt"
+      skillName: "Linux",
+      fontAwesomeClassname: "fab fa-linux"
     },
     {
-      skillName: "sass",
-      fontAwesomeClassname: "fab fa-sass"
+      skillName: "Raspberry-pi",
+      fontAwesomeClassname: "fab fa-raspberry-pi"
     },
     {
-      skillName: "JavaScript",
-      fontAwesomeClassname: "fab fa-js"
+      skillName: "C++",
+      fontAwesomeClassname: "fab fa-codiepie"
     },
     {
-      skillName: "reactjs",
-      fontAwesomeClassname: "fab fa-react"
+      skillName: "ROS",
+      fontAwesomeClassname: "fas fa-robot"
     },
     {
-      skillName: "nodejs",
-      fontAwesomeClassname: "fab fa-node"
+      skillName: "Shell",
+      fontAwesomeClassname: "fas fa-laptop-code"
     },
     {
-      skillName: "swift",
-      fontAwesomeClassname: "fab fa-swift"
+      skillName: "OpenCV",
+      fontAwesomeClassname: "fa fa-eye"
     },
     {
-      skillName: "npm",
-      fontAwesomeClassname: "fab fa-npm"
+      skillName: "Flutter",
+      fontAwesomeClassname: "fas fa-chevron-left"
     },
     {
-      skillName: "sql-database",
+      skillName: "Sqlite-database",
       fontAwesomeClassname: "fas fa-database"
     },
     {
-      skillName: "aws",
-      fontAwesomeClassname: "fab fa-aws"
+      skillName: "Tensorflow",
+      fontAwesomeClassname: "fa fa-brain"
     },
     {
-      skillName: "firebase",
+      skillName: "Firebase",
       fontAwesomeClassname: "fas fa-fire"
     },
     {
-      skillName: "python",
+      skillName: "Python",
       fontAwesomeClassname: "fab fa-python"
     },
     {
-      skillName: "docker",
-      fontAwesomeClassname: "fab fa-docker"
+      skillName: "Network",
+      fontAwesomeClassname: "fa fa-network-wired"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -126,24 +126,17 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
-      schoolName: "Harvard University",
-      logo: require("./assets/images/harvardLogo.png"),
-      subHeader: "Master of Science in Computer Science",
-      duration: "September 2017 - April 2019",
-      desc: "Participated in the research of XXX and published 3 papers.",
+      schoolName: "Sahyadri College of Engineering and Management",
+      logo: require("./assets/images/sahyadri.jpg"),
+      subHeader: "Bachelor of Engineering in Electronics and Communication",
+      duration: "2018 - 2022",
+      desc: "CGPA - 8.8",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Participated in various technical events and won prizes",
+        "Technical Member of Team Challengers Student Club",
+        "Worked as a co-ordinator in National Level Event - Aerophillia"
       ]
     },
-    {
-      schoolName: "Stanford University",
-      logo: require("./assets/images/stanfordLogo.png"),
-      subHeader: "Bachelor of Science in Computer Science",
-      duration: "September 2013 - April 2017",
-      desc: "Ranked top 10% in the program. Took courses about Software Engineering, Web Security, Operating Systems, ...",
-      descBullets: ["Lorem ipsum dolor sit amet, consectetur adipiscing elit"]
-    }
   ]
 };
 
@@ -153,16 +146,16 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "Frontend/Design", //Insert stack or technology you have experience in
-      progressPercentage: "90%" //Insert relative proficiency in percentage
+      Stack: "C++ Developer", //Insert stack or technology you have experience in
+      progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
-      Stack: "Backend",
+      Stack: "Linux - Bash",
       progressPercentage: "70%"
     },
     {
-      Stack: "Programming",
-      progressPercentage: "60%"
+      Stack: "Computer Networks",
+      progressPercentage: "50%"
     }
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
@@ -174,30 +167,23 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Engineer",
-      company: "Facebook",
-      companylogo: require("./assets/images/facebookLogo.png"),
-      date: "June 2018 – Present",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      role: "Software Intern",
+      company: "Unbox Robotics",
+      companylogo: require("./assets/images/unbox.png"),
+      date: "August 2021 – November 2021",
+      desc: "Worked as a Software Intern at Unbox Robotics, Pune",
       descBullets: [
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
-        "Lorem ipsum dolor sit amet, consectetur adipiscing elit"
+        "Worked on technologies like ROS, DDS, Embedded Systems",
+  
       ]
     },
     {
-      role: "Front-End Developer",
-      company: "Quora",
-      companylogo: require("./assets/images/quoraLogo.png"),
-      date: "May 2017 – May 2018",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+      role: "Research and Development Intern",
+      company: "CSD, NITK",
+      companylogo: require("./assets/images/nitk.png"),
+      date: "January 2021 – April 2021",
+      desc: "Worked as a Research and Development Intern at Centre for System Design at National Institute of Technology, Karnataka"
     },
-    {
-      role: "Software Engineer Intern",
-      company: "Airbnb",
-      companylogo: require("./assets/images/airbnbLogo.png"),
-      date: "Jan 2015 – Sep 2015",
-      desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-    }
   ]
 };
 
@@ -212,32 +198,65 @@ const openSource = {
 // Some big projects you have worked on
 
 const bigProjects = {
-  title: "Big Projects",
-  subtitle: "SOME STARTUPS AND COMPANIES THAT I HELPED TO CREATE THEIR TECH",
+  title: "Projects",
+  subtitle: "SOME PROJECTS THAT I WORKED ON FOR COMPETITIONS AND HACKATHONS",
   projects: [
     {
-      image: require("./assets/images/saayaHealthLogo.webp"),
-      projectName: "Saayahealth",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/vtol.png"),
+      projectName: "G-1 (Gaurdian 1)",
+      projectDesc: "Autonomous VTOL System for operations in hilly and disaster prone areas",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://saayahealth.com/"
-        }
+          name: "View Project",
+          url: "https://www.youtube.com/watch?v=F9ETXcU6t6g&feature=youtu.be"
+        },
+        
         //  you can add extra buttons here.
       ]
     },
     {
-      image: require("./assets/images/nextuLogo.webp"),
-      projectName: "Nextu",
-      projectDesc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit",
+      image: require("./assets/images/amar.png"),
+      projectName: "AMAR",
+      projectDesc: "AMAR is a differential-drive mobile robot capable of Indoor Navigation",
       footerLink: [
         {
-          name: "Visit Website",
-          url: "http://nextu.se/"
+          name: "View Project",
+          url: "https://www.youtube.com/watch?v=xx_RwlXizuw"
+        },
+        {
+          name: "Repo",
+          url: "https://github.com/G1-k/LaMB"
+        }
+      ]
+    },
+    {
+      image: require("./assets/images/zephyrpanel.png"),
+      projectName: "Zephyr-Panel",
+      projectDesc: "A Linux application to control fan speed and keyboard backlight of ASUS Zephyrus AMD-Series Laptops",
+      footerLink: [
+        {
+          name: "View Repo",
+          url: "https://github.com/G1-k/Zephyr-Panel"
+        },
+        
+      ]
+    },
+    {
+      image: require("./assets/images/rps.png"),
+      projectName: "Rock-Paper-Scissors",
+      projectDesc: "Bot capable of playing Rock-Paper-Scissors game. It uses Computer vision, Deep Learning techniques to play",
+      footerLink: [
+        {
+          name: "View Project",
+          url: "https://youtu.be/jDaEojt1Owg"
+        },
+        {
+          name: "Repo",
+          url: "https://github.com/G1-k/Rock-Paper-Scissors-AI-Bot"
         }
       ]
     }
+
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -252,47 +271,55 @@ const achievementSection = {
 
   achievementsCards: [
     {
-      title: "Google Code-In Finalist",
+      title: "Smart India Hackathon 2020",
       subtitle:
-        "First Pakistani to be selected as Google Code-in Finalist from 4000 students from 77 different countries.",
-      image: require("./assets/images/codeInLogo.webp"),
+        "Winner of Smart India Hackathon 2020 under Ministry of health and family welfare",
+      image: require("./assets/images/sih.jpg"),
       footerLink: [
         {
           name: "Certification",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dYkVvNjdNWjNybWJrbndFSHpNY2NFV1p4YmU0/view?usp=sharing"
+          url: "https://drive.google.com/file/d/1AdfRhrpncM-M_eYOz-MXZEBnNJjwdryX/view?usp=sharing"
         },
         {
-          name: "Award Letter",
-          url: "https://drive.google.com/file/d/0B7kazrtMwm5dekxBTW5hQkg2WXUyR3QzQmR0VERiLXlGRVdF/view?usp=sharing"
+          name: "News Website",
+          url: "https://timesofindia.indiatimes.com/home/education/news/sahyadri-college-win-smart-india-hackathon-2020/articleshow/81314342.cms"
         },
+      ]
+    },
+    {
+      title: "NXP Hovergames",
+      subtitle:
+        "Bonus Prize winner of NXP Hovergames Challenge 2 out of participants from all over the world ",
+      image: require("./assets/images/nxp.png"),
+      footerLink: [
         {
-          name: "Google Code-in Blog",
-          url: "https://opensource.googleblog.com/2019/01/google-code-in-2018-winners.html"
+          name: "View Website",
+          url: "https://www.hackster.io/team-challengers/g-1-intelligent-drone-for-medicine-delivery-c50f37"
         }
       ]
     },
     {
-      title: "Google Assistant Action",
+      title: "IISF - 2021",
       subtitle:
-        "Developed a Google Assistant Action JavaScript Guru that is available on 2 Billion devices world wide.",
-      image: require("./assets/images/googleAssistantLogo.webp"),
+        "Winner of India International Science Festival held at Goa,India",
+      image: require("./assets/images/iisf.png"),
       footerLink: [
         {
-          name: "View Google Assistant Action",
-          url: "https://assistant.google.com/services/a/uid/000000100ee688ee?hl=en"
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1f2VWPYpWSZhBw-QeLpVfxMVAE2rKD9MN/view?usp=sharing"
         }
       ]
     },
 
     {
-      title: "PWA Web App Developer",
-      subtitle: "Completed Certifcation from SMIT for PWA Web App Development",
-      image: require("./assets/images/pwaLogo.webp"),
+      title: "Self-Driving Car Nanodegree",
+      subtitle: "Completed Nanodegree program on self-driving cars by Udacity ",
+      image: require("./assets/images/udacity.png"),
       footerLink: [
-        {name: "Certification", url: ""},
+        {name: "Certification", url: "https://drive.google.com/file/d/1jMFQiT-arsBpvugF8i3NHsvoC3tOUSbl/view?usp=sharing"},
         {
-          name: "Final Project",
-          url: "https://pakistan-olx-1.firebaseapp.com/"
+          name: "Project Link",
+          url: "https://github.com/G1-k/Advanced_Lane_Detection"
         }
       ]
     }
@@ -321,7 +348,7 @@ const blogSection = {
         "React is a JavaScript library for building User Interface. It is maintained by Facebook and a community of individual developers and companies."
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Talks Sections
@@ -340,7 +367,7 @@ const talkSection = {
       event_url: "https://www.facebook.com/events/2339906106275053/"
     }
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
@@ -353,15 +380,15 @@ const podcastSection = {
   podcast: [
     "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
   ],
-  display: true // Set false to hide this section, defaults to true
+  display: false // Set false to hide this section, defaults to true
 };
 
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
     "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+92-0000000000",
-  email_address: "saadpasta70@gmail.com"
+  number: "+91 9901097495",
+  email_address: "iamjeevank2000@gmail.com"
 };
 
 // Twitter Section
