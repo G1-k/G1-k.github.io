@@ -23,7 +23,7 @@ const greeting = {
   username: "Jeevan K",
   title: "Hi there, I'm Jeevan K",
   subTitle: emoji(
-    "A passionate Software Developer and Robotics enthusiast 🚀 having an experience of building software applications for solving problems."
+    "A passionate Software Developer and Robotics enthusiast 🚀 who loves to solve problems with latest technology."
   ),
   resumeLink:
     "https://drive.google.com/file/d/12cbQANHRVutE6zD3H4CLNlm5tCb264yj/view?usp=sharing", // Set to empty to hide the button
@@ -123,7 +123,7 @@ const educationInfo = {
   schools: [
     {
       schoolName: "Sahyadri College of Engineering and Management",
-      logo: require("./assets/images/sahyadri.jpg"),
+      logo: require("./assets/images/sahyadri.png"),
       subHeader: "Bachelor of Engineering in Electronics and Communication",
       duration: "2018 - 2022",
       desc: "CGPA - 8.8",
@@ -269,7 +269,7 @@ const achievementSection = {
       title: "Smart India Hackathon 2020",
       subtitle:
         "Winner of Smart India Hackathon 2020 under Ministry of health and family welfare",
-      image: require("./assets/images/sih.jpg"),
+      image: require("./assets/images/sih.png"),
       footerLink: [
         {
           name: "Certification",
