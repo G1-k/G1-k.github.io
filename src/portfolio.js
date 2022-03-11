@@ -51,13 +51,9 @@ const skillsSection = {
   title: "What I do",
   subTitle: "Software and Robotics Developer exploring the World of Technology",
   skills: [
-    emoji(
-      "⚡ Developing Applications and Tools for Android, Linux and Robots"
-    ),
+    emoji("⚡ Developing Applications and Tools for Android, Linux and Robots"),
     emoji("⚡ I build and code things"),
-    emoji(
-      "⚡ Contributing to open source communities"
-    )
+    emoji("⚡ Contributing to open source communities")
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -136,7 +132,7 @@ const educationInfo = {
         "Technical Member of Team Challengers Student Club",
         "Worked as a co-ordinator in National Level Event - Aerophillia"
       ]
-    },
+    }
   ]
 };
 
@@ -172,10 +168,7 @@ const workExperiences = {
       companylogo: require("./assets/images/unbox.png"),
       date: "August 2021 – November 2021",
       desc: "Worked as a Software Intern at Unbox Robotics, Pune",
-      descBullets: [
-        "Worked on technologies like ROS, DDS, Embedded Systems",
-  
-      ]
+      descBullets: ["Worked on technologies like ROS, DDS, Embedded Systems"]
     },
     {
       role: "Research and Development Intern",
@@ -183,7 +176,7 @@ const workExperiences = {
       companylogo: require("./assets/images/nitk.png"),
       date: "January 2021 – April 2021",
       desc: "Worked as a Research and Development Intern at Centre for System Design at National Institute of Technology, Karnataka"
-    },
+    }
   ]
 };
 
@@ -204,20 +197,22 @@ const bigProjects = {
     {
       image: require("./assets/images/vtol.png"),
       projectName: "G-1 (Gaurdian 1)",
-      projectDesc: "Autonomous VTOL System for operations in hilly and disaster prone areas",
+      projectDesc:
+        "Autonomous VTOL System for operations in hilly and disaster prone areas",
       footerLink: [
         {
           name: "View Project",
           url: "https://www.youtube.com/watch?v=F9ETXcU6t6g&feature=youtu.be"
-        },
-        
+        }
+
         //  you can add extra buttons here.
       ]
     },
     {
       image: require("./assets/images/amar.png"),
       projectName: "AMAR",
-      projectDesc: "AMAR is a differential-drive mobile robot capable of Indoor Navigation",
+      projectDesc:
+        "AMAR is a differential-drive mobile robot capable of Indoor Navigation",
       footerLink: [
         {
           name: "View Project",
@@ -232,19 +227,20 @@ const bigProjects = {
     {
       image: require("./assets/images/zephyrpanel.png"),
       projectName: "Zephyr-Panel",
-      projectDesc: "A Linux application to control fan speed and keyboard backlight of ASUS Zephyrus AMD-Series Laptops",
+      projectDesc:
+        "A Linux application to control fan speed and keyboard backlight of ASUS Zephyrus AMD-Series Laptops",
       footerLink: [
         {
           name: "View Repo",
           url: "https://github.com/G1-k/Zephyr-Panel"
-        },
-        
+        }
       ]
     },
     {
       image: require("./assets/images/rps.png"),
       projectName: "Rock-Paper-Scissors",
-      projectDesc: "Bot capable of playing Rock-Paper-Scissors game. It uses Computer vision, Deep Learning techniques to play",
+      projectDesc:
+        "Bot capable of playing Rock-Paper-Scissors game. It uses Computer vision, Deep Learning techniques to play",
       footerLink: [
         {
           name: "View Project",
@@ -256,7 +252,6 @@ const bigProjects = {
         }
       ]
     }
-
   ],
   display: true // Set false to hide this section, defaults to true
 };
@@ -283,7 +278,7 @@ const achievementSection = {
         {
           name: "News Website",
           url: "https://timesofindia.indiatimes.com/home/education/news/sahyadri-college-win-smart-india-hackathon-2020/articleshow/81314342.cms"
-        },
+        }
       ]
     },
     {
@@ -316,7 +311,10 @@ const achievementSection = {
       subtitle: "Completed Nanodegree program on self-driving cars by Udacity ",
       image: require("./assets/images/udacity.png"),
       footerLink: [
-        {name: "Certification", url: "https://drive.google.com/file/d/1jMFQiT-arsBpvugF8i3NHsvoC3tOUSbl/view?usp=sharing"},
+        {
+          name: "Certification",
+          url: "https://drive.google.com/file/d/1jMFQiT-arsBpvugF8i3NHsvoC3tOUSbl/view?usp=sharing"
+        },
         {
           name: "Project Link",
           url: "https://github.com/G1-k/Advanced_Lane_Detection"
