@@ -23,10 +23,10 @@ const greeting = {
   username: "Jeevan K",
   title: "Hi there, I'm Jeevan K",
   subTitle: emoji(
-    "A passionate Software Developer and Robotics enthusiast 🚀 who loves to solve problems with latest technology."
+    "A passionate Embedded software developer and Robotics enthusiast 🚀 who loves to solve problems with latest technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/12cbQANHRVutE6zD3H4CLNlm5tCb264yj/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1Oqt6Y9m4o1w-En6h4fZS2_8nzM6dKMK2/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -49,11 +49,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Software and Robotics Developer exploring the World of Technology",
+  subTitle: "Embedded Software and Robotics Developer exploring the World of Technology",
   skills: [
-    emoji("⚡ Developing Applications and Tools for Android, Linux and Robots"),
-    emoji("⚡ I build and code things"),
-    emoji("⚡ Contributing to open source communities")
+    emoji("⚡ Developing software for robotics and aviation sector"),
+    emoji("⚡ Software - Hardware integration"),
+    emoji("⚡ Building innovative projects for solving problems"),
+    emoji("⚡ Contributing to open source communities"),
+    emoji("⚡ Loves to collaborate and organize workshops for knowledge sharing"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -111,6 +113,14 @@ https://fontawesome.com/icons?d=gallery */
     {
       skillName: "Network",
       fontAwesomeClassname: "fa fa-network-wired"
+    },
+    {
+      skillName: "Ada 2012",
+      fontAwesomeClassname: "fa fa-cube"
+    },
+    {
+      skillName: "Flight Management System",
+      fontAwesomeClassname: "fa fa-plane-up"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -124,13 +134,15 @@ const educationInfo = {
     {
       schoolName: "Sahyadri College of Engineering and Management",
       logo: require("./assets/images/sahyadri.png"),
+      subHeader: "Visvesvaraya Technological University",
       subHeader: "Bachelor of Engineering in Electronics and Communication",
       duration: "2018 - 2022",
       desc: "CGPA - 8.8",
       descBullets: [
         "Participated in various technical events and won prizes",
-        "Technical Member of Team Challengers Student Club",
-        "Worked as a co-ordinator in National Level Event - Aerophillia"
+        "Delivered and organised various workshops",
+        "Robotics lead of Team Challengers Student Club",
+        "Worked as a co-ordinator in National Level Event - Aerophilia"
       ]
     }
   ]
@@ -142,7 +154,7 @@ const techStack = {
   viewSkillBars: true, //Set it to true to show Proficiency Section
   experience: [
     {
-      Stack: "C++ Developer", //Insert stack or technology you have experience in
+      Stack: "C / C++", //Insert stack or technology you have experience in
       progressPercentage: "80%" //Insert relative proficiency in percentage
     },
     {
@@ -150,9 +162,21 @@ const techStack = {
       progressPercentage: "70%"
     },
     {
-      Stack: "Computer Networks",
-      progressPercentage: "50%"
-    }
+      Stack: "Robot Operating System (ROS/ROS2)",
+      progressPercentage: "80%"
+    },
+    {
+      Stack: "Data structures & Algorithms",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Flight Management System",
+      progressPercentage: "70%"
+    },
+    {
+      Stack: "Computer Vision",
+      progressPercentage: "60%"
+    },
   ],
   displayCodersrank: false // Set true to display codersrank badges section need to changes your username in src/containers/skillProgress/skillProgress.js:17:62, defaults to false
 };
@@ -163,19 +187,28 @@ const workExperiences = {
   display: true, //Set it to true to show workExperiences Section
   experience: [
     {
-      role: "Software Intern",
+      role: "Software Real-time Embedded Engineer",
+      company: "Thales",
+      companylogo: require("./assets/images/thales.jpg"),
+      date: "August 2022 – Present",
+      desc: "Developing next generation FMS (Flight Management System) Pureflyt",
+      descBullets: ["Worked on technologies like Ada, Datalink, Flight planning, Connectivity, HMI, Real-time software"]
+    },
+    {
+      role: "Robotics Software Intern",
       company: "Unbox Robotics",
       companylogo: require("./assets/images/unbox.png"),
       date: "August 2021 – November 2021",
-      desc: "Worked as a Software Intern at Unbox Robotics, Pune",
-      descBullets: ["Worked on technologies like ROS, DDS, Embedded Systems"]
+      desc: "Worked as a Robotics Software Intern at Unbox Robotics, Pune",
+      descBullets: ["Worked on technologies like ROS/ROS2, DDS, Embedded Systems, C++, Path planner"]
     },
     {
       role: "Research and Development Intern",
       company: "CSD, NITK",
       companylogo: require("./assets/images/nitk.png"),
       date: "January 2021 – April 2021",
-      desc: "Worked as a Research and Development Intern at Centre for System Design at National Institute of Technology, Karnataka"
+      desc: "Worked as a Research and Development Intern at Centre for System Design at National Institute of Technology, Karnataka",
+      descBullets: ["Worked on technologies like UAV, Ardupilot firmware, Qt, C++, LiDAR"]
     }
   ]
 };
@@ -268,7 +301,7 @@ const achievementSection = {
     {
       title: "Smart India Hackathon 2020",
       subtitle:
-        "Winner of Smart India Hackathon 2020 under Ministry of health and family welfare",
+        "Winner of Smart India Hackathon 2020 under Ministry of health and family welfare, Govt. of India",
       image: require("./assets/images/sih.png"),
       footerLink: [
         {
@@ -352,20 +385,20 @@ const blogSection = {
 // Talks Sections
 
 const talkSection = {
-  title: "TALKS",
+  title: "Workshops and Hackathons",
   subtitle: emoji(
-    "I LOVE TO SHARE MY LIMITED KNOWLEDGE AND GET A SPEAKER BADGE 😅"
+    "I LOVE TO SHARE MY KNOWLEDGE TO JUNIORS AND IMPROVE THEIR COMPETENCY AND SKILLS  😅"
   ),
 
   talks: [
     {
-      title: "Build Actions For Google Assistant",
-      subtitle: "Codelab at GDG DevFest Karachi 2019",
-      slides_url: "https://bit.ly/saadpasta-slides",
-      event_url: "https://www.facebook.com/events/2339906106275053/"
+      title: "Git and Github Workshop - Git.Set.Go",
+      subtitle: "Team Challengers Club",
+      slides_url: "https://www.instagram.com/p/CbmI3UJvW06/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA==",
+      event_url: "https://www.instagram.com/p/CbmI3UJvW06/?utm_source=ig_web_copy_link&igsh=MzRlODBiNWFlZA=="
     }
   ],
-  display: false // Set false to hide this section, defaults to true
+  display: true // Set false to hide this section, defaults to true
 };
 
 // Podcast Section
