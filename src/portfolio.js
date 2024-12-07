@@ -99,7 +99,7 @@ softwareSkills: [
   },
   {
     skillName: "Tensorflow",
-    fontAwesomeClassname: "fa fa-brain"
+    fontAwesomeClassname: "fa-brands fa-flutter"
   },
   {
     skillName: "Firebase",
@@ -118,8 +118,8 @@ softwareSkills: [
     fontAwesomeClassname: "fa fa-cube"
   },
   {
-    skillName: "Flight Management System",
-    fontAwesomeClassname: "fa-solid fa-plane-up"
+    skillName: "FMS",
+    fontAwesomeClassname: "fa-solid fa-plane-circle-check"
   }
 ],
 display: true // Set false to hide this section, defaults to true
