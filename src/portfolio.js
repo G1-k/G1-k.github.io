@@ -119,7 +119,7 @@ softwareSkills: [
   },
   {
     skillName: "Flight Management System",
-    fontAwesomeClassname: "fa fa-plane-up"
+    fontAwesomeClassname: "fa-solid fa-plane-up"
   }
 ],
 display: true // Set false to hide this section, defaults to true
