@@ -12,7 +12,7 @@ export default function Footer() {
         <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           {emoji("Made with ❤️ by G1-k")}
         </p>
-        <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
+        {/* <p className={isDark ? "dark-mode footer-text" : "footer-text"}>
           Theme by{" "}
           <a
             href="https://github.com/G1-k"
@@ -21,7 +21,7 @@ export default function Footer() {
           >
             Jeevan K
           </a>
-        </p>
+        </p> */}
       </div>
     </Fade>
   );
