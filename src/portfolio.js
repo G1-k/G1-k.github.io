@@ -23,10 +23,10 @@ const greeting = {
   username: "Jeevan K",
   title: "Hi there, I'm Jeevan K",
   subTitle: emoji(
-    "A passionate Embedded software developer and Robotics enthusiast 🚀 who loves to solve problems with latest technology."
+    "Embedded Software Engineer and Robotics Enthusiast 🚀 dedicated to building intelligent systems and solving complex challenges with cutting-edge technology."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1Oqt6Y9m4o1w-En6h4fZS2_8nzM6dKMK2/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/1TlM7c6OOKqdAK4mONRYGJpewI-UrLj_f/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -36,7 +36,7 @@ const socialMediaLinks = {
   github: "https://github.com/G1-k",
   linkedin: "https://www.linkedin.com/in/jeevan-k-6aa7a616b/",
   gmail: "iamjeevank2000@gmail.com",
-  gitlab: "https://https://gitlab.com/iamjeevank2000",
+  gitlab: "https://gitlab.com/iamjeevank2000",
   facebook: "https://www.facebook.com/",
   medium: "https://medium.com/",
   stackoverflow: "https://stackoverflow.com/",
@@ -49,13 +49,13 @@ const socialMediaLinks = {
 
 const skillsSection = {
   title: "What I do",
-  subTitle: "Embedded Software and Robotics Developer exploring the World of Technology",
+  subTitle: "Embedded Software and Robotics Developer exploring the world of technology",
   skills: [
-    emoji("⚡ Developing software for robotics and aviation sector"),
-    emoji("⚡ Software - Hardware integration"),
-    emoji("⚡ Building innovative projects for solving problems"),
-    emoji("⚡ Contributing to open source communities"),
-    emoji("⚡ Loves to collaborate and organize workshops for knowledge sharing"),
+    emoji("⚡ Developing core software for robotics and aviation"),
+    emoji("⚡ Bridging the gap with software-hardware integration"),
+    emoji("⚡ Engineering innovative solutions to real-world problems"),
+    emoji("⚡ Contributing code to open-source projects"),
+    emoji("⚡ Organizing workshops and mentoring peers"),
   ],
 
   /* Make Sure to include correct Font Awesome Classname to view your icon
@@ -120,7 +120,7 @@ https://fontawesome.com/icons?d=gallery */
     },
     {
       skillName: "Flight Management System",
-      fontAwesomeClassname: "fa fa-plane-up"
+      fontAwesomeClassname: "fas fa-plane-departure"
     }
   ],
   display: true // Set false to hide this section, defaults to true
@@ -135,15 +135,19 @@ const educationInfo = {
       schoolName: "University of Bonn",
       logo: require("./assets/images/bonn.png"),
       subHeader: "Master of Science in Mobile Robotics",
-      duration: "Present",
-      desc: "Master's student in mobile robotics",
-      descBullets: []
+      duration: "2025 - 2027",
+      desc: "Focusing on intelligent systems",
+      descBullets: [
+        "Computer vision",
+        "Python",
+        "Mobile robotics",
+        "Planning and Control"
+      ]
     },
     {
       schoolName: "Sahyadri College of Engineering and Management",
       logo: require("./assets/images/sahyadri.png"),
-      subHeader: "Visvesvaraya Technological University",
-      subHeader: "Bachelor of Engineering in Electronics and Communication",
+      subHeader: "Bachelor of Engineering in Electronics and Communication, VTU",
       duration: "2018 - 2022",
       desc: "CGPA - 8.8",
       descBullets: [
@@ -200,7 +204,7 @@ const workExperiences = {
       companylogo: require("./assets/images/thales.jpg"),
       date: "August 2022 – Present",
       desc: "Developing next generation FMS (Flight Management System) Pureflyt",
-      descBullets: ["Worked on technologies like Ada, Datalink, Flight planning, Connectivity, HMI, Real-time software"]
+      descBullets: ["Technologies used: Ada, Datalink, Flight planning, Connectivity, HMI, Real-time software"]
     },
     {
       role: "Robotics Software Intern",
@@ -208,7 +212,7 @@ const workExperiences = {
       companylogo: require("./assets/images/unbox.png"),
       date: "August 2021 – November 2021",
       desc: "Worked as a Robotics Software Intern at Unbox Robotics, Pune",
-      descBullets: ["Worked on technologies like ROS/ROS2, DDS, Embedded Systems, C++, Path planner"]
+      descBullets: ["Technologies used: ROS/ROS2, DDS, Embedded Systems, C++, Path planner"]
     },
     {
       role: "Research and Development Intern",
@@ -216,7 +220,7 @@ const workExperiences = {
       companylogo: require("./assets/images/nitk.png"),
       date: "January 2021 – April 2021",
       desc: "Worked as a Research and Development Intern at Centre for System Design at National Institute of Technology, Karnataka",
-      descBullets: ["Worked on technologies like UAV, Ardupilot firmware, Qt, C++, LiDAR"]
+      descBullets: ["Technologies used: UAV, Ardupilot firmware, Qt, C++, LiDAR"]
     }
   ]
 };
@@ -237,9 +241,9 @@ const bigProjects = {
   projects: [
     {
       image: require("./assets/images/vtol.png"),
-      projectName: "G-1 (Gaurdian 1)",
+      projectName: "G-1 (Guardian 1)",
       projectDesc:
-        "Autonomous VTOL System for operations in hilly and disaster prone areas",
+        "Autonomous VTOL System for operations in hilly and disaster-prone areas",
       footerLink: [
         {
           name: "View Project",
@@ -395,7 +399,7 @@ const blogSection = {
 const talkSection = {
   title: "Workshops and Hackathons",
   subtitle: emoji(
-    "I LOVE TO SHARE MY KNOWLEDGE TO JUNIORS AND IMPROVE THEIR COMPETENCY AND SKILLS  😅"
+    "I love sharing what I learn to help others grow and build their technical skills 😅"
   ),
 
   talks: [
@@ -417,7 +421,7 @@ const podcastSection = {
 
   // Please Provide with Your Podcast embeded Link
   podcast: [
-    "https://anchor.fm/codevcast/embed/episodes/DevStory---Saad-Pasta-from-Karachi--Pakistan-e9givv/a-a15itvo"
+    "https://"
   ],
   display: false // Set false to hide this section, defaults to true
 };
@@ -425,8 +429,8 @@ const podcastSection = {
 const contactInfo = {
   title: emoji("Contact Me ☎️"),
   subtitle:
-    "Discuss a project or just want to say hi? My Inbox is open for all.",
-  number: "+91 9901097495",
+    "Discuss a project or just want to say hi? My inbox is open to all.",
+  // number: "+91 9901097495",
   email_address: "iamjeevank2000@gmail.com"
 };
 
