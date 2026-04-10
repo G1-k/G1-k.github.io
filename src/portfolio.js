@@ -132,6 +132,14 @@ const educationInfo = {
   display: true, // Set false to hide this section, defaults to true
   schools: [
     {
+      schoolName: "University of Bonn",
+      logo: require("./assets/images/bonn.png"),
+      subHeader: "Master of Science in Mobile Robotics",
+      duration: "Present",
+      desc: "Master's student in mobile robotics",
+      descBullets: []
+    },
+    {
       schoolName: "Sahyadri College of Engineering and Management",
       logo: require("./assets/images/sahyadri.png"),
       subHeader: "Visvesvaraya Technological University",
